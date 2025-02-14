@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stopwatch"
+version = "0.5.0"
+description = "Stopwatch"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE.txt"}
+keywords = []
+authors = [
+  { name = "Bogatyrev Aleksandr", email = "bogatirevas.dev@gmail.com" },
+]
+maintainers = [
+  { name = "Bogatyrev Aleksandr", email = "bogatirevas.dev@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/BogatiterAS/py-stopwatch#readme"
+Issues = "https://github.com/BogatiterAS/py-stopwatch/issues"
+Source = "https://github.com/BogatiterAS/py-stopwatch"
+
